@@ -1,0 +1,153 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#main {
+    width: 1100px;
+    padding-top: 5%;
+}
+
+#main > div {
+    margin-bottom: 50px;
+}
+
+/* 多文件上传样式1 */
+.multiFile_uploading {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+.more_mu_title-V {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.more_mu_title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    height: 30px;
+    line-height: 30px;
+}
+
+.more_mu_images-V {
+    padding: 15px;
+}
+
+.more_mu_footer-V {
+    padding: 10px 15px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+}
+
+.more_mu_submit_btn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #5CB85C;
+}
+
+.more_mu_reset_btn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #337AB7;
+}
+
+.more_mu_browse_btn {
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+}
+
+#more_mu_images {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#more_mu_file {
+    display: none;
+}
+
+/* 多文件上传2 */
+.float {
+    float: left;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: darkgrey 3px 3px 5px 2px;
+    cursor: pointer;
+}
+
+.float:hover {
+    box-shadow: #21B2EE 3px 3px 5px 2px;
+}
+
+.float img {
+    position: relative;
+    border-radius: 5px;
+}
+
+.result {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.delete {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 200px;
+    z-index: 10;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #777;
+    opacity: 0;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+
+.delete:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+/*单文件上传样式*/
+.monoFile_uploading {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+
+/*主页按钮样式*/
+.index_btn {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #5CB85C;
+    color: white;
+    font-size: 18px;
+}
+
+.pitch {
+    background-color: #e29c1b;
+}
